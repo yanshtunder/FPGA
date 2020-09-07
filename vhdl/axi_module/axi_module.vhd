@@ -91,10 +91,10 @@ entity axi_<entity_name> is
     );
 end axi_<entity_name>;
 
-architecture arch_imp of saxi_<entity_name> is
+architecture arch_imp of axi_<entity_name> is
     
     --! user component
-    COMPONENT <<component_name> is
+    COMPONENT <component_name> is
         generic(
 			
         );
