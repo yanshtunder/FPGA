@@ -31,7 +31,7 @@ entity axi_<entity_name> is
         
         --! User ports ends
         
-        S_AXI_ACLK	    : in std_logic;                                                                 --! Global Clock Signal
+        S_AXI_ACLK		: in std_logic;                                                                 --! Global Clock Signal
         S_AXI_ARESETN   : in std_logic;                                                                 --! Global Reset Signal. This Signal is Active LOW
         S_AXI_AWADDR    : in std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0);                           --! Write address (issued by master, acceped by Slave)
         
@@ -94,7 +94,7 @@ end axi_<entity_name>;
 architecture arch_imp of saxi_<entity_name> is
     
     --! user component
-    COMPONENT <name> is
+    COMPONENT <<component_name> is
         generic(
 			
         );
