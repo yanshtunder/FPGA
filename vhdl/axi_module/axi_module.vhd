@@ -132,14 +132,14 @@ architecture arch_imp of saxi_<entity_name> is
     --!     Signals for user logic register space example       --
     --------------------------------------------------------------
     --! Number of Slave Registers 32
-    signal slv_reg0	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg1	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg2	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg3	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg4	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg5	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg0             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg1             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg2             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg3             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg4             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg5             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg6             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg7	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg7             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg8             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg9             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg10            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
