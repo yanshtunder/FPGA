@@ -138,7 +138,7 @@ architecture arch_imp of saxi_<entity_name> is
     signal slv_reg3	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg4	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg5	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-    signal slv_reg6	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+    signal slv_reg6             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg7	            :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg8             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
     signal slv_reg9             :std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
