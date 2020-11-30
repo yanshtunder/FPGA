@@ -20,7 +20,7 @@ entity axi_<entity_name> is
         --! User parameters ends
 
         C_S_AXI_DATA_WIDTH  : integer := 32;                                                            --! Width of S_AXI data bus
-        C_S_AXI_ADDR_WIDTH  : integer := 5                                                              --! Width of S_AXI address bus
+        C_S_AXI_ADDR_WIDTH  : integer := 7                                                              --! Width of S_AXI address bus
     );
     port(
         --! User to add ports here
@@ -91,7 +91,7 @@ entity axi_<entity_name> is
     );
 end axi_<entity_name>;
 
-architecture arch_imp of saxi_<entity_name> is
+architecture arch_imp of axi_<entity_name> is
 
     --! user component
     COMPONENT <name> is
